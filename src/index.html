@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+		<title>CMLABS | Pre-assessment</title>
+	</head>
+	<body>
+		<div>
+			<header
+				class="bg-white flex justify-between items-center w-full px-4 py-2"
+			>
+				<a href="#home" class="text-orange-400 font-bold text-lg"
+					>Meal<span class="text-blue-400">app</span></a
+				>
+				<ul class="text-blue-400 flex text-sm">
+					<li class="m-3 p-2 rounded-full hover:bg-blue-400 hover:text-white">
+						<a href="#home">Home</a>
+					</li>
+					<li class="m-3 p-2 rounded-full hover:bg-blue-400 hover:text-white">
+						<a href="#list">Meal</a>
+					</li>
+				</ul>
+			</header>
+			<main class="bg-gray-50 p-8 text-center">
+				<div class="w-fit bg-white rounded-md p-8" id="home">
+					<h1 class="font-bold text-lg">Meal Desc</h1>
+					<p class="text-sm">
+						Appetizers, also known as starters, are the first course of a meal
+						and are designed to stimulate the appetite and set the tone for the
+						dining experience. They are typically smaller portions of food that
+						are flavorful, visually appealing, and easy to eat. Appetizers can
+						range from simple options like a plate of mixed olives or a bowl of
+						soup to more elaborate choices such as bruschetta, cheese platters,
+						or shrimp cocktail. They often include a variety of tastes and
+						textures, offering a combination of flavors that awaken the palate
+						and prepare it for the main course. Whether served hot or cold,
+						appetizers are a delightful way to begin a meal and create
+						anticipation for the culinary delights to come.
+					</p>
+				</div>
+				<div id="list" class="w-fit bg-white rounded-md p-10 mt-8 mx-auto">
+					<h1 class="font-bold text-lg mb-4">Meal</h1>
+					<ul id="category-list" class="columns-2 gap-2"></ul>
+				</div>
+			</main>
+		</div>
+
+		<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
